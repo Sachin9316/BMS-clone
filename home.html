@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="w-full m-auto relative top-3 p-8">
+    <!-- Navigation Bar -->
+    <div class="w-full"> 
+        <div class="nav flex justify-between items-center h-full max-sm:flex-wrap max-sm:justify-center">
+
+            <div class="flex items-center max-sm:flex-wrap justify-center">
+                <img src="images/bms logo.png" alt="" class="w-[140px] h-[47px]">
+
+                <img src="images/search-alt-svgrepo-com.svg" alt="" class="w-[15px] flex mr-3 ml-2">
+
+                <input type="text" placeholder="Search for Movies,Events,Plays,Sports and Activities"
+                    class=" h-[43px] text-sm flex flex-wrap w-[800px] max-sm:w-auto">
+            </div>
+
+            <div class="flex justify-between  items-center gap-x-1">
+
+                <select class="h-[43px]">
+                    <option value="Surat">Surat</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Jaipur">Jaipur</option>
+                </select>
+
+                <button class="sign w-[70px] h-[26px] rounded-md text-white max-sm:hidden">Sign in</button>
+
+                <div class=" sm:visible ">
+                    <img src="images/menu-symbol-of-three-parallel-lines-svgrepo-com.svg" alt="" class="w-[22px]">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Nav items -->
+    <div class="flex gap-x-4 text-sm justify-start mt-5 text-gray-700 max-sm:flex-wrap">
+        <a href="#movies">Movies</a>
+        <a href="#movies">Plays</a>
+        <a href="#movies">Stream</a>
+        <a href="#movies">Events</a>
+        <a href="#movies">Sports</a>
+        <a href="#movies">Activities</a>
+    </div>
+
+    <!-- Recommended Movies -->
+    <div class="flex justify-between items-center mt-14 relative">
+
+        <p class="absolute -top-12 text-[27px] text-gray-900 font-medium">Recommended Movies</p>
+
+        <div class="Movies flex w-full justify-between items-center m-auto max-sm:flex-wrap max-sm:gap-x-3 max-sm:mt-8 ">
+
+            <!-- movie 1 -->
+            <div class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer">
+                <img src="images/et00304730-tqwgbxnkdd-portrait.jpg" alt="" class="rounded-lg w-[240px]">
+
+                <p class="font-semibold text-xl text-gray-900">Fighter</p>
+
+                <p class="text-[18px] text-gray-600">Action/Thriller</p>
+            </div>
+
+            <!-- movie 2 -->
+            <div
+                class="fighter flex flex-col gap-y-2 relative hover:scale-105 transition-all duration-500 cursor-pointer max-sm:mt-8 overflow-hidden">
+
+                <div>
+                    <img src="images/hanu-man-et00311673-1704954533.jpg" alt="" class="rounded-lg w-[240px] h-[396px] object-fill">
+
+                    <div
+                        class="flex gap-x-2 bg-black text-white h-[35px] justify-center rounded-b-md absolute w-[240px] bottom-[70px] items-center max-sm:hidden ">
+                        <img src="images/star.svg" alt="" class="w-[18px]">
+
+                        <p class="tracking-wider">8.7/10 80.1k Votes</p>
+
+                        <img src="images/right.svg" alt="" class="w-[23px]">
+                    </div>
+
+                </div>
+
+                <p class="font-semibold text-xl text-gray-900">Hanuman</p>
+
+                <p class="text-[18px] text-gray-600">Action/Advanture/Fantasy</p>
+
+
+            </div>
+
+            <!-- movie 3 -->
+            <div class="max-sm:mt-8 fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer">
+                <div>
+                    <img src="images/animal-et00311762-1672646524.jpg" alt="" class="rounded-lg w-[240px] h-[396px]">
+
+                    <div
+                        class="flex gap-x-2 bg-black text-white h-[35px] justify-center rounded-b-md absolute w-[240px] bottom-[70px] items-center max-sm:hidden">
+                        <img src="images/star.svg" alt="" class="w-[18px]">
+
+                        <p class="tracking-wider">8.7/10 80.1k Votes</p>
+
+                        <img src="images/right.svg" alt="" class="w-[23px]">
+                    </div>
+
+                </div>
+
+                <p class="font-semibold text-xl text-gray-900">Animal</p>
+
+                <p class="text-[18px] text-gray-600">Action/Crime/Drama</p>
+            </div>
+
+            <!-- movie 4 -->
+            <div class=" max-sm:mt-8 fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer">
+                <div>
+                    <img src="images/main-atal-hoon-et00348408-1705487125.jpg" alt=""
+                        class="rounded-lg w-[240px] h-[396px]">
+
+                    <div
+                        class="flex gap-x-2 bg-black text-white h-[35px] justify-center rounded-b-md absolute w-[240px] bottom-[70px] items-center max-sm:hidden">
+                        <img src="images/star.svg" alt="" class="w-[18px]">
+
+                        <p class="tracking-wider">8.7/10 80.1k Votes</p>
+
+                        <img src="images/right.svg" alt="" class="w-[23px]">
+                    </div>
+
+                </div>
+
+                <p class="font-semibold text-xl text-gray-900">Main Atal Hoon</p>
+
+                <p class="text-[18px] text-gray-600">Bipgraphy/Drama</p>
+            </div>
+
+            <!-- movie 5 -->
+            <div
+                class="max-sm:mt-8 fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer overflow-hidden">
+                <div>
+                    <img src="images/ittaa-kittaa-et00377604-1703575098.jpg" alt=""
+                        class="rounded-lg w-[240px] h-[396px]">
+
+                    <div
+                        class="flex gap-x-2 bg-black text-white h-[35px] justify-center rounded-b-md absolute w-[240px] bottom-[70px] items-center max-sm:hidden">
+                        <img src="images/star.svg" alt="" class="w-[18px]">
+
+                        <p class="tracking-wider">8.7/10 80.1k Votes</p>
+
+                        <img src="images/right.svg" alt="" class="w-[23px]">
+                    </div>
+
+                    <img src="images/right.svg" alt="" class="w-[50px] absolute top-[170px] -right-6 max-sm:hidden">
+
+                </div>
+
+                <p class="font-semibold text-xl text-gray-900">Itta Kittaa</p>
+
+                <p class="text-[18px] text-gray-600">Comedy/Drama</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="">
+        <img src="images/stream-leadin-web-collection-202210241242.png" alt="" class="mt-20 rounded-lg">
+    </div>
+
+    <!-- The best Events -->
+    <div class="cards mt-20">
+
+        <p class="text-3xl font-bold text-gray-800 max-sm:text-center">The Best Of Live Events</p>
+
+
+        <div class="flex mt-4 justify-start gap-x-9 max-sm:flex-wrap gap-y-5">
+
+            <!-- // card 1 -->
+            <div>
+                <img src="images/workshop-and-more-web-collection-202211140440.jpeg" alt=""
+                    class="rounded-lg w-[250px]">
+
+            </div>
+
+            <!-- // card 2 -->
+            <div>
+                <img src="images/comedy-shows-collection-202211140440.png" alt="" class="rounded-lg w-[250px]">
+
+            </div>
+
+            <!-- // card 3 -->
+            <div>
+                <img src="images/music-shows-collection-202211140440.jpeg" alt="" class="rounded-lg w-[250px]">
+
+            </div>
+
+            <!-- // card 4 -->
+            <div>
+                <img src="images/theatre-shows-collection-202211140440.png" alt="" class="rounded-lg w-[250px]">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Premiere -->
+    <div class="primere mt-20 w-[100%] h-[700px] p-5 max-sm:h-full">
+        <div>
+            <img src="images/premiere-banner-web-collection-202208191200.jpeg" alt="" class="rounded-lg ">
+        </div>
+
+        <div class="text-white mt-6">
+            <h2 class="text-3xl font-bold">Premieres</h2>
+            <p>Brand new releases every Friday</p>
+        </div>
+
+        <!-- Movies  -->
+        <div class="flex justify-between mt-3 max-sm:flex-wrap max-sm:gap-y-5">
+
+            <!-- card 1 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-white">
+
+                <div>
+                    <img src="images/bengali.jpg" alt="" class="rounded-lg w-[240px] h-[360px]">
+                </div>
+
+                <p class="font-semibold text-[21px]">Koshtoneer</p>
+
+                <p class="text-[18px]">Bengali</p>
+            </div>
+
+            <!-- card 2 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-white">
+
+                <div>
+                    <img src="images/n4.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-semibold text-[21px]">N4</p>
+
+                <p class="text-[18px]">Tamil</p>
+            </div>
+
+            <!-- card 3 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-white">
+
+                <div>
+                    <img src="images/et00015953-lnvjdndthd-portrait.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-semibold text-[21px]">The Wolf of Wall Street</p>
+
+                <p class="text-[18px]">English</p>
+            </div>
+
+            <!-- card 4 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-white">
+
+                <div>
+                    <img src="images/et00136633-xwnybelddp-portrait.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-semibold text-[21px]">Detective</p>
+
+                <p class="text-[18px]">Bengali</p>
+            </div>
+
+            <!-- card 5 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-white">
+
+                <div>
+                    <img src="images/et00331568-ttfxzbzdwc-portrait.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-semibold text-[21px]">Wonka</p>
+
+                <p class="text-[18px]">English</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Music Studio -->
+    <div class="mt-12 w-full">
+        <h2 class="text-2xl font-bold text-gray-900">Your Music Studio</h2>
+
+        <!-- Concerts Data -->
+        <div class="flex justify-between mt-3 max-sm:flex-wrap gap-y-5">
+
+            <!-- card 1 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-black">
+
+                <div>
+                    <img src="images/sonu.jpg" alt="" class="rounded-lg w-[240px] h-[360px]">
+                </div>
+
+                <p class="font-bold text-[18px]">Sonu Nigam Live In : Surat</p>
+
+                <p class="text-[18px]">Concerts</p>
+            </div>
+
+            <!-- card 2 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-black">
+
+                <div>
+                    <img src="images/zakir.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-bold text-[19px]w- w-[230px]">Zakir Khan In : Ahemedabad</p>
+
+                <p class="text-[18px]">Concert</p>
+            </div>
+
+            <!-- card 3 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-black">
+
+                <div>
+                    <img src="images/et00381900-wpsunctnel-portrait.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-bold text-[19px]w- w-[230px]">Anuv Jain In : Surat</p>
+
+                <p class="text-[18px]">Concert At Hungrito</p>
+            </div>
+
+            <!-- card 4 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-black">
+
+                <div>
+                    <img src="images/surat.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-bold text-[19px]w- w-[230px]">Dream Festist In : Surat</p>
+
+                <p class="text-[18px]">Concert At : CB Patel College</p>
+            </div>
+
+            <!-- card 5 -->
+            <div
+                class="fighter flex flex-col gap-y-2 hover:scale-105 transition-all duration-500 cursor-pointer text-black">
+
+                <div>
+                    <img src="images/vocal.jpg" alt="" class="rounded-lg w-[230px] h-[360px]">
+                </div>
+
+                <p class="font-bold text-[19px]w- w-[230px]">Vocal Waves (Unfogettable) In : Surat</p>
+
+                <p class="text-[18px]">Concert At : VR Surat</p>
+            </div>
+        </div>
+
+        <!-- Trending Searches -->
+        <div class="mt-10 w-full">
+            <h2 class="text-black font-bold text-2xl">Trending Searches Right Now</h2>
+
+            <div class="mt-5">
+                <ul class="flex justify-self-auto flex-wrap gap-x-28 gap-y-10 p-5">
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Fighter</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Animal</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Dream Fiesta 1.0 Aesthetic Dreamland</a>
+                        <p>Events</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Hanu-Man</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Salaar: Cease Fire - Part 1</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Dunki</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Kamthaan</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">12th Fail</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Pushpa: The Rule - Part 2</a>
+                        <p>Movies</p>
+                    </li>
+
+                    <li>
+                        <a href="" class="text-red-600 font-bold">Bade Miyan Chote Miyan</a>
+                        <p>Movies</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- List Your Shows -->
+    <div class="mt-12 ">
+        <div class="list-connect flex justify-between text-white items-center p-2 max-sm:flex-wrap gap-y-5">
+            <div class="flex gap-x-4 items-center max-sm:flex-wrap gap-y-5">
+
+                <img src="images/tent.png" alt="" class="w-[29px] mx-auto">
+
+                <a href="" class="font-bold text-xl text-white">List your Show</a>
+
+                <p class="text-[17px] text-center">Got a show,event,activity, or a great experience? Partner with us & get listed on
+                    BookMyShow</p>
+
+            </div>
+
+
+            <div class="mx-auto">
+                <button class="btn-contact p-2 px-6 rounded-md hover:bg-red-500">
+                    Contact today!
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- customer support -->
+    <div class="support W-full h-full">
+
+        <div class="flex justify-around items-center text-[14px] text-gray-400 max-sm:flex-wrap gap-y-5 p-5 max-sm:pt-44">
+
+            <div class="flex flex-col items-center hover:text-white">
+                <img src="images/customecare.png" alt="" class="w-[60px]">
+                <p>24/7 CUSTOMER CARE</p>
+            </div>
+
+            <div class="flex flex-col items-center hover:text-white text-center">
+                <img src="images/tickets.png" alt="" class="w-[60px] ">
+                <p>RESEND BOOKING CONFIRMATION</p>
+            </div>
+
+            <div class="flex flex-col items-center  hover:text-white text-center">
+                <img src="images/newsletter.png" alt="" class="w-[60px]">
+                <p>SUBSCRIBE TO NEWSLETTER</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- shows events page -->
+    <div class="shows h-fit p-5">
+        <!-- master -->
+        <div
+            class="flex flex-col mt-3 text-gray-400 gap-y-9 cursor-pointer hover:text-white duration-500 transition-all">
+
+            <!-- show 1 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">MOVIES NOW SHOWING IN SURAT</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 2 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">UPCOMING MOVIES IN SURAT</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 3 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">MOVIES BY GENERE</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 4 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">MOVIES BY LANGUAGE</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 5 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">SPORTS EVENTS IN SURAT</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 6 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">EVENTS IN TOP CITIES</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 7 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">CINEMAS IN TOP CITIES</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 8 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">PLAYS IN TOP CITIES</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 9 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">ACTIVITIES IN TOP CITIES</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+            <!-- show 10 -->
+            <div class="flex flex-col gap-y-4">
+                <h2 class="font-semibold text-[16px]">MOVIES NOW SHOWING</h2>
+
+                <p class="text-gray-500 text-[15px]">Fighter | Hanu-Man | itta Kitta | Kamathaan | Mai Atal Hoon |
+                    Trailers Screening Show | Chaal Jeevi Layie | Animal | Malaikottao Vaaliban</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="h-fit footer-end max-sm:pb-3">
+
+        <!-- logo footer -->
+        <div class=" flex items-center justify-center gap-x-3">
+            <div class="w-[600px] h-[2px] bg-gray-500"></div>
+            <div class="w-[170px]">
+                <img src="images/bms logo.png" alt="">
+            </div>
+            <div class="w-[600px] h-[2px] bg-gray-500"></div>
+        </div>
+
+        <!-- social links -->
+        <div class="flex items-center justify-center gap-x-6 mt-14 max-sm:flex-wrap">
+            <img src="images/facebook.png" alt="" class="w-[40px] cursor-pointer">
+
+            <img src="images/X.png" alt="" class="cursor-pointer w-[40px]">
+
+            <img src="images/instagram.png" alt="" class="w-[39px] cursor-pointer">
+
+            <img src="images/yt.png" alt="" class="w-[40px] rounded-[50%] cursor-pointer">
+
+            <img src="images/linkedin.png" alt="" class="w-[40px] cursor-pointer">
+        </div>
+
+        <!-- copyright -->
+        <div class="m-9">
+            <div class="flex flex-col items-center justify-center text-gray-400 text-[12px] text-center gap-y-3">
+
+                <p>Copyright 2024 #&0169 Bigtree Entertainment pvt ltd. All Rights Reserved.</p>
+
+                <p>the content and images used on this site are copyright protected and co[yrights vests with the
+                    respective owners. The usgae of the content and images on this website is intended to promote the
+                    works and no endorsment of the artist shall be implied. Unauthorized use is prohibited and
+                    punishable by law</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

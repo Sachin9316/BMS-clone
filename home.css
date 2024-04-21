@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primere{
+    background-color: #2B3149;
+}
+
+.sign{
+    background-color: #EC5E71;
+}
+
+.list-connect{
+    width: 100%;
+    height: 100px;
+    background-color: #313035;
+}
+
+.btn-contact{
+    background-color: #EC5E71;
+}
+
+.support{
+    background-color: #404043;
+}
+
+.shows{
+    background-color: #313035;
+}
+
+.footer-end{
+    background-color: #313035;
+}
